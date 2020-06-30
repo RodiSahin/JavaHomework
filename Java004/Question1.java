@@ -73,7 +73,7 @@ class NumberUtil {
 
     public static void statistics (long count, int max, int min, long sum)
     {
-        System.out.printf("Toplam %d değer girildim.%n", count);
+        System.out.printf("Toplam %d değer girildi.%n", count);
         System.out.printf("Max = %d%n", max);
         System.out.printf("Min = %d%n", min);
         System.out.printf("Ortalama = %f%n", avg(count, sum));
